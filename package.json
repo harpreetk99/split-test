@@ -1,0 +1,32 @@
+{
+  "name": "abtest",
+  "version": "1.0.0",
+  "description": "A proxy that goes 2 ways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhildred/abtest.git"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "problem",
+    "solving"
+  ],
+  "author": "Rich Hildred",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhildred/abtest/issues"
+  },
+  "homepage": "https://github.com/rhildred/abtest#readme",
+  "dependencies": {
+    "express": "*",
+    "express-session": "*",
+    "http-proxy": "*"
+  }
+}
